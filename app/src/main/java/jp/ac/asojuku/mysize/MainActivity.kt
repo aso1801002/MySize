@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
     //再表示のたびに呼ばれるライフサイクルイベントのコールバックメソッド
+    //コミットメッセージ
     override fun onResume() {
         super.onResume()
         //入力値を端末内に保存
